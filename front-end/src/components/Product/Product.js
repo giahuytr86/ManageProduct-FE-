@@ -5,13 +5,15 @@ import shoesData from '../../assets/shoes.json';
 
 function Product ({ cart, setCart, nikeLogo, checkIcon, setTotalPrice}) {
     
-    const [shoes, setShoes] = useState(shoesData.shoes);
+    const [shoes, setShoes] = useState([]);
 
     useEffect( () => {
         const fetchShoes = async () => {  
         try {  
             const response = await getShoes();  
-            setShoes(response.data || shoesData.shoes);
+            console.log(response.data);
+            
+            setShoes(response.data || []);
             console.log(shoes);
             
         } catch (error) {  
