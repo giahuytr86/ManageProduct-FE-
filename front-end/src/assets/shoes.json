@@ -1,0 +1,28 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1315882/air-zoom-pegasus-36-mens-running-shoe-wide-D24Mcz-removebg-preview.png",
+      "name": "Nike Air Max 1",
+      "desc": "Classic Air Max cushioning with premium materials.",
+      "price": 129.99,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": 2,
+      "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1315882/air-zoom-pegasus-36-shield-mens-running-shoe-24FBGb__1_-removebg-preview.png",
+      "name": "Nike Air Force 1",
+      "desc": "Timeless streetwear sneaker with iconic design.",
+      "price": 119.99,
+      "color": "#000000"
+    },
+    {
+      "id": 3,
+      "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1315882/cruzrone-unisex-shoe-T2rRwS-removebg-preview.png",
+      "name": "Air Jordan 1 Retro High",
+      "desc": "Legendary basketball silhouette from the 80s.",
+      "price": 179.99,
+      "color": "#FF0000"
+    }
+  ]
+}
