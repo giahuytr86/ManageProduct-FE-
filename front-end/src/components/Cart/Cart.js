@@ -53,7 +53,7 @@ function Cart ({nikeLogo, trash, cart, setCart, totalPrice, setTotalPrice, setGo
                         <div className="card-header">Your Cart</div>
                         <div className="cart-total" style={{ float: "right" }}>
                             {totalPrice !== null && totalPrice !== undefined ? (
-                                <div>${totalPrice.toFixed(2)}</div>
+                                <div>{Number(totalPrice || 0).toFixed(2)}</div>
                                 ) : (
                                 <div>$0.00</div>
                             )}
